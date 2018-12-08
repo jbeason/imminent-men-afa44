@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<!--
+        Altitude by Pixelarity
+        pixelarity.com | hello@pixelarity.com
+        License: pixelarity.com/license
+-->
+<html>
+    <head>
+        <title>{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="{{ (resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "assets/css/main.css" . | resources.ToCSS (dict "indentWidth" 4 "outputStyle" "nested" "precision" 10)).Permalink }}" />
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    </head>
+    <body class="is-preload">
+        <!-- Page Wrapper -->
+            <div id="page-wrapper">
+                
+                {{ partial "header.html" . }}
+                
+                {{ block "content" . }}{{ end }}
+                
+                {{ partial "footer.html" . }}
+            </div>
+        <!-- Scripts -->
+        <script src="{{ "assets/js/jquery.min.js" | relURL }}"></script>
+        <script src="{{ "assets/js/browser.min.js" | relURL }}"></script>
+        <script src="{{ "assets/js/breakpoints.min.js" | relURL }}"></script>
+        <script src="{{ "assets/js/util.js" | relURL }}"></script>
+        <script src="{{ "assets/js/main.js" | relURL }}"></script>
+        <script>
+          if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", function(user) {
+              if (!user) {
+                window.netlifyIdentity.on("login", function() {
+                  document.location.href = "/admin/";
+                });
+              }
+            });
+          }
+        </script>
+    </body>
+</html>

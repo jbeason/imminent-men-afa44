@@ -1,0 +1,70 @@
+<!-- Wrapper -->
+<div class="wrapper">
+    <div class="inner">
+        
+        {{ if .Params.show_contact }}
+            {{ partial "contact.html" . }}
+        {{ end }}
+
+        <!-- Footer -->
+        <footer id="footer">
+            <section class="links">
+                {{ if .Site.Params.footer.links_col1 }}
+                    <div>
+                        <h3>{{ .Site.Params.footer.links_col1.title }}</h3>
+                        <ul class="plain">
+                            {{ range $item := .Site.Params.footer.links_col1.links }}
+                                <li><a href="{{ relref $ $item.link | relURL }}">{{ $item.text }}</a></li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                {{ end }}
+                {{ if .Site.Params.footer.links_col2 }}
+                    <div>
+                        <h3>{{ .Site.Params.footer.links_col2.title }}</h3>
+                        <ul class="plain">
+                            {{ range $item := .Site.Params.footer.links_col2.links }}
+                                <li><a href="{{ relref $ $item.link | relURL }}">{{ $item.text }}</a></li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                {{ end }}
+                {{ if .Site.Params.footer.links_col3 }}
+                    <div>
+                        <h3>{{ .Site.Params.footer.links_col3.title }}</h3>
+                        <ul class="plain">
+                            {{ range $item := .Site.Params.footer.links_col3.links }}
+                                <li><a href="{{ relref $ $item.link | relURL }}">{{ $item.text }}</a></li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                {{ end }}
+                {{ if .Site.Params.footer.links_col4 }}
+                    <div>
+                        <h3>{{ .Site.Params.footer.links_col4.title }}</h3>
+                        <ul class="plain">
+                            {{ range $item := .Site.Params.footer.links_col4.links }}
+                                <li><a href="{{ relref $ $item.link | relURL }}">{{ $item.text }}</a></li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                {{ end }}
+            </section>
+            {{ if .Site.Params.footer.social_links }}
+                <ul class="contact-icons">
+                    {{ range $item := .Site.Params.footer.social_links }}
+                        {{ if $item.link }}
+                            <li class="icon {{ $item.icon }}"><a href="{{ $item.link }}">{{ $item.text }}</a></li>
+                        {{ else }}
+                            <li class="icon {{ $item.icon }}">{{ $item.text }}</li>
+                        {{ end }}
+                    {{ end }}
+                </ul>
+            {{ end }}
+            {{ if .Site.Params.footer.copyright }}
+                <p class="copyright">{{ .Site.Params.footer.copyright | safeHTML }}</p>
+            {{ end }}
+        </footer>
+
+    </div>
+</div>
