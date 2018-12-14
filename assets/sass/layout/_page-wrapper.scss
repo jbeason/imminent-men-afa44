@@ -10,9 +10,11 @@
 		overflow-x: hidden;
 		width: 100%;
 
-		> :first-child,
+		> :first-child {
+			background-color: lighten(_palette(accent1, bg), 2);
+		}
 		> :last-child {
-			background-color: darken(_palette(accent1, bg), 4);
+			background-color: darken(_palette(accent1, bg), 15);
 		}
 
 		> * {

@@ -25,6 +25,7 @@
 					'transform 0.5s ease-in-out'
 				));
 				text-align: center;
+				color: #ffffff;
 
 				h1 {
 					font-size: 1.75em;
@@ -53,7 +54,6 @@
 			}
 			section:first-of-type {
 				background-color: darken(_palette(accent2, bg), 10);
-				color: #ffffff;
 			}
 		}
 

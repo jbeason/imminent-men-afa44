@@ -1731,7 +1731,7 @@ section.special, article.special {
   text-align: center; }
 
 header p {
-  margin: -0.75em 0 3em 0; }
+  margin: -0.75em 5em 3em; }
 
 header.major {
   text-align: center; }
@@ -3016,7 +3016,8 @@ body.is-menu-visible #menu {
       -webkit-transition: opacity 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
       -ms-transition: opacity 0.5s ease-in-out, -ms-transform 0.5s ease-in-out;
       transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-      text-align: center; }
+      text-align: center;
+      color: #ffffff; }
       #banner > .items section h1 {
         font-size: 1.75em;
         color: #ffffff; }
@@ -3253,8 +3254,7 @@ body.is-menu-visible #menu {
             #banner > .items section.accent4 .button.primary:active {
               background-color: #7aecb1; }
     #banner > .items section:first-of-type {
-      background-color: #dd284c;
-      color: #ffffff; }
+      background-color: #dd284c; }
   #banner > .slider {
     -moz-flex-grow: 0;
     -webkit-flex-grow: 0;
@@ -3463,9 +3463,10 @@ body.is-menu-visible #menu {
 #page-wrapper {
   overflow-x: hidden;
   width: 100%; }
-  #page-wrapper > :first-child,
+  #page-wrapper > :first-child {
+    background-color: #126dd0; }
   #page-wrapper > :last-child {
-    background-color: #0f5eb4; }
+    background-color: #0b4381; }
   #page-wrapper > * {
     padding: 0 4em; }
   #page-wrapper > :first-child {
