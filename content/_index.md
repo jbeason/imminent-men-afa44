@@ -16,8 +16,10 @@ banner:
         is_scrolly: false
         label: More
         url: generic.md
-      subtitle: Fusce lancinia ipsum feugiat dolor sed matis tempus sed nullam
-      title: Amet magna
+      subtitle: >-
+        Reef structures minimize wave impacts from storms such as cyclones,
+        hurricanes or typhoons.
+      title: Natural Breakwaters
   slider:
     - data_position: bottom right
       img_path: images/pic01.jpg
