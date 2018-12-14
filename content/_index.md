@@ -19,7 +19,7 @@ banner:
       subtitle: >-
         Reef structures minimize wave impacts from storms such as cyclones,
         hurricanes or typhoons.
-      title: Natural Breakwaters
+      title: Natural Protection
   slider:
     - data_position: bottom right
       img_path: images/pic01.jpg
