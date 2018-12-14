@@ -9,6 +9,7 @@
 	.carousel {
 		padding: 5em 12em;
 		position: relative;
+		z-index: 2;
 
 		article {
 			@include vendor('transform', 'translateY(0.5em)');

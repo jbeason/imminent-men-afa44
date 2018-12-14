@@ -1120,6 +1120,97 @@ button,
     .button.primary:active {
       background-color: #1f81ec; }
 
+.bubble-wrap {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  z-index: 1;
+  bottom: 0;
+  background: transparent !important; }
+
+.bubble-1 {
+  left: 200px;
+  animation-delay: 1.3s; }
+
+.bubble-1 .bubble-animation-y {
+  animation-delay: 0.7s; }
+
+.bubble-2 {
+  left: 33px;
+  animation-delay: 2s; }
+
+.bubble-2 .bubble-animation-y {
+  animation-delay: 2.1s; }
+
+.bubble-3 {
+  left: 125px;
+  animation-delay: 4.7s; }
+
+.bubble-3 .bubble-animation-y {
+  animation-delay: 3.8s; }
+
+.bubble-4 {
+  left: 185px;
+  animation-delay: 0s; }
+
+.bubble-4 .bubble-animation-y {
+  animation-delay: 6s; }
+
+.bubble-5 {
+  left: 115px;
+  animation-delay: 1.5s; }
+
+.bubble-5 .bubble-animation-y {
+  animation-delay: 7s; }
+
+.bubble-container {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  bottom: 0; }
+
+.bubble {
+  background-color: #ff00ff;
+  opacity: 0;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px white; }
+
+.bubble-animation-x {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bubbleXAnimFrames;
+  animation-timing-function: ease;
+  animation-direction: alternate; }
+
+.bubble-animation-y {
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-name: bubbleYAnimFrames;
+  animation-timing-function: linear; }
+
+@keyframes bubbleXAnimFrames {
+  0% {
+    transform: translateX(0); }
+  100% {
+    transform: translateX(50px); } }
+
+@keyframes bubbleYAnimFrames {
+  0% {
+    transform: translateY(0);
+    opacity: 0; }
+  10% {
+    transform: translateY(0);
+    opacity: 0.5; }
+  95% {
+    transform: translateY(-280px);
+    opacity: 0.5; }
+  100% {
+    transform: translateY(-300px);
+    opacity: 0; } }
+
 /* Features */
 .features {
   display: -moz-flex;
@@ -1803,7 +1894,8 @@ table.alt tbody tr td {
 /* Carousel */
 .carousel {
   padding: 5em 12em;
-  position: relative; }
+  position: relative;
+  z-index: 2; }
   .carousel article {
     -moz-transform: translateY(0.5em);
     -webkit-transform: translateY(0.5em);
@@ -3465,14 +3557,14 @@ body.is-menu-visible #menu {
   width: 100%; }
   #page-wrapper > :first-child {
     background-color: #126dd0; }
-  #page-wrapper > :last-child {
+  #page-wrapper > :nth-of-type(3) {
     background-color: #0b4381; }
   #page-wrapper > * {
     padding: 0 4em; }
   #page-wrapper > :first-child {
     padding-top: 4em;
     overflow: hidden; }
-  #page-wrapper > :last-child {
+  #page-wrapper > :nth-of-type(3) {
     padding-bottom: 4em;
     overflow: hidden; }
   @media screen and (max-width: 1280px) {
