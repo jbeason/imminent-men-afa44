@@ -3,7 +3,7 @@ title: Advances In Medicine
 subtitle: >-
   Healthy coral reefs provide the potential for treatments for many of the
   world's most prevalent and dangerous illnesses and diseases.
-content_img_path: images/pic09.jpg
+content_img_path: /uploads/slide.jpg
 home_sections:
   spotlight:
     enabled: true
