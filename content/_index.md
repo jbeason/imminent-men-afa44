@@ -33,15 +33,19 @@ sections:
     features:
       - icon: fa-camera
         icon_accent_color: accent2
-        subtitle: Lorem ipsum dolor sit amet nullam feugiat tempus
+        subtitle: >-
+          Coral reefs create a natural barrier protecting coastal cities,
+          communities and beaches.
         title: Protection
       - icon: fa-paper-plane
         icon_accent_color: accent3
-        subtitle: Lorem ipsum dolor sit amet nullam feugiat tempus
+        subtitle: >-
+          Reefs are home to over 1 million diverse aquatic species, including
+          thousands of fish species.
         title: Habitat
       - icon: fa-envelope
         icon_accent_color: accent4
-        subtitle: Lorem ipsum dolor sit amet nullam feugiat tempus
+        subtitle: 'For people living near coral reefs, especially on small islands.'
         title: Food
     identifier: features
     subtitle: >-
