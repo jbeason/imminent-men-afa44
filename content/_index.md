@@ -2,61 +2,58 @@
 title: Home
 banner:
   items:
-    - title: Sed lorem
-      subtitle: 'Sed egestas, ante vulputate volutpat vitae luctus metus libero aliquam'
-      accent_color: accent2
-      action:
+    - action:
+        is_primary: true
+        is_scrolly: false
         label: More
         url: generic.md
-        is_scrolly: false
+      subtitle: >-
+        Coral reefs support extraordinary biodiversity and are home to a
+        multitude of different types of fish, invertebrates and sea mammals.
+      title: Coral Reefs
+    - action:
         is_primary: true
-    - title: Amet magna
+        is_scrolly: false
+        label: More
+        url: generic.md
       subtitle: Fusce lancinia ipsum feugiat dolor sed matis tempus sed nullam
-      accent_color: accent3
-      action:
-        label: More
-        url: generic.md
-        is_scrolly: false
-        is_primary: true
+      title: Amet magna
   slider:
-    - img_path: images/pic01.jpg
-      data_position: bottom right
-    - img_path: images/pic02.jpg
-      data_position: bottom right
-    - img_path: images/pic03.jpg
-      data_position: top left
+    - data_position: bottom right
+      img_path: images/pic01.jpg
+    - data_position: bottom right
+      img_path: images/pic02.jpg
+    - data_position: top left
+      img_path: images/pic03.jpg
 show_contact: true
 sections:
-  - title: Lorem ipsum dolor
-    subtitle: Sed egestas adipiscing
+  - component: features.html
     features:
-      - title: Ultrices aliquam
-        subtitle: Lorem ipsum dolor sit amet nullam feugiat tempus
-        icon: fa-camera
+      - icon: fa-camera
         icon_accent_color: accent2
-      - title: Lorem sed nullam
         subtitle: Lorem ipsum dolor sit amet nullam feugiat tempus
-        icon: fa-paper-plane
+        title: Ultrices aliquam
+      - icon: fa-paper-plane
         icon_accent_color: accent3
-      - title: Aliquam feugiat
         subtitle: Lorem ipsum dolor sit amet nullam feugiat tempus
-        icon: fa-envelope
+        title: Lorem sed nullam
+      - icon: fa-envelope
         icon_accent_color: accent4
+        subtitle: Lorem ipsum dolor sit amet nullam feugiat tempus
+        title: Aliquam feugiat
     identifier: features
-    component: features.html
+    subtitle: Sed egestas adipiscing
+    title: Lorem ipsum dolor
     type: features
   - background_accent_color: accent4
-    identifier: carousel
     component: carousel.html
+    identifier: carousel
     type: carousel
-  - title: Sed tempus aliquam
-    subtitle: Lorem ipsum dolor sit amet
+  - component: spotlight.html
     identifier: spotlight
-    component: spotlight.html
+    subtitle: Lorem ipsum dolor sit amet
+    title: Sed tempus aliquam
     type: spotlight
 layout: home
-menu:
-  main:
-    weight: 1
-    name: Home
 ---
+
