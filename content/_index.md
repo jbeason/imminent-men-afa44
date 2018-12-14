@@ -62,7 +62,7 @@ sections:
     identifier: spotlight
     subtitle: >-
       Coral reefs are often called the rainforests of the sea, both due to the
-      vast amount of species they harbour, and to the high productivity they
+      vast amount of species they harbor, and to the high productivity they
       yield.
     title: Rainforests of the Sea
     type: spotlight
