@@ -42,7 +42,7 @@ $palette: (
     shadow:						rgba(0,0,0,0.1),
 
     accent1: (
-        bg:						#575b72,
+        bg:						#1168C7,
         fg:						rgba(255,255,255,0.75),
         fg-bold:				#ffffff,
         fg-light:				rgba(255,255,255,0.5),
@@ -52,7 +52,7 @@ $palette: (
     ),
 
     accent2: (
-        bg:						{{ $palette.accent2 }},
+        bg:						#E45471,
         fg:						rgba(255,255,255,0.75),
         fg-bold:				#ffffff,
         fg-light:				rgba(255,255,255,0.5),
@@ -72,7 +72,7 @@ $palette: (
     ),
 
     accent4: (
-        bg:						{{ $palette.accent4 }},
+        bg:						#3DDC8A,
         fg:						rgba(255,255,255,0.75),
         fg-bold:				#ffffff,
         fg-light:				rgba(255,255,255,0.5),

@@ -28,6 +28,7 @@
 
 				h1 {
 					font-size: 1.75em;
+					color: #ffffff;
 				}
 
 				&.accent1 {
@@ -49,6 +50,10 @@
 					@include color-typography(accent4);
 					@include color-button(accent4);
 				}
+			}
+			section:first-of-type {
+				background-color: darken(_palette(accent2, bg), 10);
+				color: #ffffff;
 			}
 		}
 
