@@ -51,13 +51,13 @@ params:
       title: Aliquam
     social_links:
       - icon: fa-home
-        text: '1234 Fictional Street #5432 Nashville, TN 00000-0000'
+        text: 'Maryland, USA'
       - icon: fa-phone
         link: '#'
-        text: (000) 000-0000
+        text: (301) 547-3435
       - icon: fa-envelope-o
         link: '#'
-        text: info@untitled.tld
+        text: hello@beason.co
   menu:
     actions:
       - is_primary: true
