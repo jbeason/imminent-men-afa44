@@ -33,15 +33,13 @@ sections:
     features:
       - icon: fa-camera
         icon_accent_color: accent2
-        subtitle: >-
-          Coral reefs create a natural barrier protecting coastal cities,
-          communities and beaches.
+        subtitle: 'Natural barrier protecting coastal cities, communities and beaches.'
         title: Protection
       - icon: fa-paper-plane
         icon_accent_color: accent3
         subtitle: >-
-          Reefs are home to over 1 million diverse aquatic species, including
-          thousands of fish species.
+          Home to over 1 million diverse aquatic species, including thousands of
+          fish species.
         title: Habitat
       - icon: fa-envelope
         icon_accent_color: accent4

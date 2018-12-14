@@ -1,18 +1,18 @@
 ---
-title: Pellentesque fermentum
+title: Powerful Attraction
+subtitle: ''
 content_img_path: images/pic09.jpg
 home_sections:
   spotlight:
     enabled: true
-    image:
-      url: images/pic08.jpg
-      data_position: center
-    title: Pellentesque fermentum
     excerpt: >-
-      Eed egestas, ante et vulputate volutpat, eros pede semper est, vitae
-      luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing,
-      commodo quis, gravida id, est. Sed lectus. Praesent elementum lorem ipsum
-      blandid sti amet velvelit.
+      Their beauty makes coral reefs a powerful attraction for tourism, a
+      sustainable means of earning foreign currency and employment for people
+      around the world.
+    image:
+      data_position: center
+      url: images/pic08.jpg
+    title: Powerful Attraction
     weight: 2
 layout: page
 ---

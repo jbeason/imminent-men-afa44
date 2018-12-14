@@ -1,16 +1,19 @@
 ---
-title: Aliquam
+title: Advances In Medicine
+subtitle: >-
+  Healthy coral reefs provide the potential for treatments for many of the
+  world's most prevalent and dangerous illnesses and diseases.
 content_img_path: images/pic09.jpg
 home_sections:
   spotlight:
     enabled: true
-    image:
-      url: images/pic07.jpg
-      data_position: center
-    title: Aliquam
     excerpt: >-
-      Morbi in sem quis dui placerat ellentesque odio nisi euismod in haretra a,
-      ultricies in, diam ed rcuc consequat lorem ipsum dolor.
+      Healthy coral reefs provide the potential for treatments for many of the
+      world's most prevalent and dangerous illnesses and diseases.
+    image:
+      data_position: center
+      url: images/pic07.jpg
+    title: Advances in Medicine
     weight: 1
 layout: page
 ---
