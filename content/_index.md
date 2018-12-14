@@ -10,7 +10,7 @@ banner:
       subtitle: >-
         Coral reefs support extraordinary biodiversity and are home to a
         multitude of different types of fish, invertebrates and sea mammals.
-      title: Coral Reefs
+      title: Biodiversity
     - action:
         is_primary: true
         is_scrolly: false
@@ -19,12 +19,12 @@ banner:
       subtitle: >-
         Reef structures minimize wave impacts from storms such as cyclones,
         hurricanes or typhoons.
-      title: Natural Protection
+      title: Protection
   slider:
     - data_position: bottom right
-      img_path: images/pic01.jpg
+      img_path: /uploads/slide1-1-.jpg
     - data_position: bottom right
-      img_path: images/pic02.jpg
+      img_path: /uploads/slide2.jpg
     - data_position: top left
       img_path: images/pic03.jpg
 show_contact: true
