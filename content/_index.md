@@ -34,18 +34,21 @@ sections:
       - icon: fa-camera
         icon_accent_color: accent2
         subtitle: Lorem ipsum dolor sit amet nullam feugiat tempus
-        title: Ultrices aliquam
+        title: Protection
       - icon: fa-paper-plane
         icon_accent_color: accent3
         subtitle: Lorem ipsum dolor sit amet nullam feugiat tempus
-        title: Lorem sed nullam
+        title: Habitat
       - icon: fa-envelope
         icon_accent_color: accent4
         subtitle: Lorem ipsum dolor sit amet nullam feugiat tempus
-        title: Aliquam feugiat
+        title: Food
     identifier: features
-    subtitle: Sed egestas adipiscing
-    title: Lorem ipsum dolor
+    subtitle: >-
+      According to a United Nations estimate, the total economic value of coral
+      reefs range from $100,000 to $600,000 (USD) per square kilometer per year.
+      (Source: UNEP-WCMC, 2006)
+    title: Benefits of Coral Reefs
     type: features
   - background_accent_color: accent4
     component: carousel.html
