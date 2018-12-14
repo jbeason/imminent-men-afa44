@@ -22,7 +22,7 @@ banner:
       title: Protection
   slider:
     - data_position: bottom right
-      img_path: /uploads/slide1-1-.jpg
+      img_path: /uploads/slide.jpg
     - data_position: bottom right
       img_path: /uploads/slide2.jpg
     - data_position: top left
