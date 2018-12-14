@@ -8,12 +8,12 @@ home_sections:
   spotlight:
     enabled: true
     excerpt: >-
-      Morbi in sem quis dui placerat ellentesque odio nisi euismod in haretra a,
-      ultricies in, diam ed rcuc consequat lorem ipsum dolor.
+      Healthy coral reefs provide the potential for treatments for many of the
+      world's most prevalent and dangerous illnesses and diseases.
     image:
       data_position: center
       url: images/pic07.jpg
-    title: Aliquam
+    title: Advances in Medicine
     weight: 1
 layout: page
 ---
