@@ -1,7 +1,7 @@
 ---
 title: Powerful Attraction
 subtitle: ''
-content_img_path: images/pic09.jpg
+content_img_path: /uploads/slide2.jpg
 home_sections:
   spotlight:
     enabled: true
