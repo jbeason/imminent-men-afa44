@@ -22,11 +22,11 @@ banner:
       title: Protection
   slider:
     - data_position: bottom right
-      img_path: /uploads/slide1-1-.jpg
+      img_path: /uploads/slide.jpg
     - data_position: bottom right
       img_path: /uploads/slide2.jpg
     - data_position: top left
-      img_path: images/pic03.jpg
+      img_path: /uploads/slide1-1-.jpg
 show_contact: true
 sections:
   - component: features.html
