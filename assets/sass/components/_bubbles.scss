@@ -1,6 +1,6 @@
 .bubble-wrap {
     position: fixed;
-    width: 100vw;
+    width: 10vw;
     height: 100vh;
     display: block;
     z-index: 1;
@@ -11,6 +11,8 @@
 .bubble-1 {
     left: 200px;
     animation-delay: 1.3s;
+    width: 16px;
+    height: 16px;
   }
   .bubble-1 .bubble-animation-y{
     animation-delay: 0.7s;
@@ -19,6 +21,8 @@
   .bubble-2 {
     left: 33px;
     animation-delay: 2s;
+    width: 25px;
+    height: 25px;
   }
   .bubble-2 .bubble-animation-y{
     animation-delay: 2.1s;
@@ -27,6 +31,8 @@
   .bubble-3 {
     left: 125px;
     animation-delay: 4.7s;
+    width: 12px;
+    height: 12px;
   }
   .bubble-3 .bubble-animation-y{
     animation-delay: 3.8s;
@@ -35,6 +41,8 @@
   .bubble-4 {
     left: 185px;
     animation-delay: 0s;
+    width: 25px;
+    height: 25px;
   }
   .bubble-4 .bubble-animation-y{
     animation-delay: 6s;
@@ -43,6 +51,8 @@
   .bubble-5 {
     left: 115px;
     animation-delay: 1.5s;
+    width: 18px;
+    height: 18px;
   }
   .bubble-5 .bubble-animation-y{
     animation-delay: 7s;
@@ -50,17 +60,15 @@
   
   .bubble-container {
     position: absolute;
-    width: 25px;
-    height: 25px;
     bottom: 0;
   }
   
   .bubble {
-    background-color: #ff00ff;
+    background-color: #0f59ab;
     opacity: 0;
     border-radius: 100%;
-    width: 25px;
-    height: 25px;
+    width: inherit;
+    height: inherit;
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
   }
   

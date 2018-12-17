@@ -14,6 +14,8 @@
 			max-width: 100%;
 			margin-left: auto;
 			margin-right: auto;
+			position: relative;
+			z-index: 2;
 
 			> .main {
 				@include padding(6em, 6em);

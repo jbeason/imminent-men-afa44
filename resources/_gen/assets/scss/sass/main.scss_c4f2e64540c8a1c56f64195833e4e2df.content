@@ -1122,7 +1122,7 @@ button,
 
 .bubble-wrap {
   position: fixed;
-  width: 100vw;
+  width: 10vw;
   height: 100vh;
   display: block;
   z-index: 1;
@@ -1131,51 +1131,59 @@ button,
 
 .bubble-1 {
   left: 200px;
-  animation-delay: 1.3s; }
+  animation-delay: 1.3s;
+  width: 16px;
+  height: 16px; }
 
 .bubble-1 .bubble-animation-y {
   animation-delay: 0.7s; }
 
 .bubble-2 {
   left: 33px;
-  animation-delay: 2s; }
+  animation-delay: 2s;
+  width: 25px;
+  height: 25px; }
 
 .bubble-2 .bubble-animation-y {
   animation-delay: 2.1s; }
 
 .bubble-3 {
   left: 125px;
-  animation-delay: 4.7s; }
+  animation-delay: 4.7s;
+  width: 12px;
+  height: 12px; }
 
 .bubble-3 .bubble-animation-y {
   animation-delay: 3.8s; }
 
 .bubble-4 {
   left: 185px;
-  animation-delay: 0s; }
+  animation-delay: 0s;
+  width: 25px;
+  height: 25px; }
 
 .bubble-4 .bubble-animation-y {
   animation-delay: 6s; }
 
 .bubble-5 {
   left: 115px;
-  animation-delay: 1.5s; }
+  animation-delay: 1.5s;
+  width: 18px;
+  height: 18px; }
 
 .bubble-5 .bubble-animation-y {
   animation-delay: 7s; }
 
 .bubble-container {
   position: absolute;
-  width: 25px;
-  height: 25px;
   bottom: 0; }
 
 .bubble {
-  background-color: #ff00ff;
+  background-color: #0f59ab;
   opacity: 0;
   border-radius: 100%;
-  width: 25px;
-  height: 25px;
+  width: inherit;
+  height: inherit;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px white; }
 
 .bubble-animation-x {
@@ -2097,7 +2105,9 @@ table.alt tbody tr td {
     width: 80em;
     max-width: 100%;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    position: relative;
+    z-index: 2; }
     .wrapper > .inner > .main {
       padding: 6em 6em 4em 6em ;
       background-color: #ffffff; }
@@ -2802,6 +2812,65 @@ table.alt tbody tr td {
     .wrapper > .inner {
       width: 72em; } }
 
+.wrapper {
+  position: relative;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden; }
+  .wrapper:before, .wrapper:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    min-width: 300vw;
+    min-height: 300vw;
+    background-color: #1168C7;
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; }
+  .wrapper:before {
+    bottom: 15vh;
+    border-radius: 45%;
+    animation-duration: 50s; }
+  .wrapper:after {
+    bottom: 12vh;
+    opacity: .5;
+    border-radius: 47%;
+    animation-duration: 50s; }
+
+.wrapper:nth-of-type(2) {
+  background-color: #0b4381; }
+  .wrapper:nth-of-type(2):before, .wrapper:nth-of-type(2):after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    min-width: 300vw;
+    min-height: 300vw;
+    background-color: #0f59ab;
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; }
+
+.wrapper:nth-of-type(3) {
+  background-color: #0b4381; }
+  .wrapper:nth-of-type(3):before, .wrapper:nth-of-type(3):after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    min-width: 300vw;
+    min-height: 300vw;
+    background-color: #0c4b8f;
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; }
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, 0) rotateZ(0deg); }
+  50% {
+    transform: translate(-50%, -2%) rotateZ(180deg); }
+  100% {
+    transform: translate(-50%, 0%) rotateZ(360deg); } }
+
 /* Header */
 #header {
   display: -moz-flex;
@@ -3346,7 +3415,7 @@ body.is-menu-visible #menu {
             #banner > .items section.accent4 .button.primary:active {
               background-color: #7aecb1; }
     #banner > .items section:first-of-type {
-      background-color: #dd284c; }
+      background-color: #e45471; }
   #banner > .slider {
     -moz-flex-grow: 0;
     -webkit-flex-grow: 0;
@@ -3556,7 +3625,9 @@ body.is-menu-visible #menu {
   overflow-x: hidden;
   width: 100%; }
   #page-wrapper > :first-child {
-    background-color: #126dd0; }
+    background-color: #0f59ab; }
+  #page-wrapper > :nth-of-type(2) {
+    background-color: #0c4b8f; }
   #page-wrapper > :nth-of-type(3) {
     background-color: #0b4381; }
   #page-wrapper > * {
